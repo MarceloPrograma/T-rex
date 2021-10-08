@@ -91,7 +91,7 @@ function draw() {
   if(score>0 && score%100==0){
   checkPointSound.play();  
   }
-  if(keyDown("space")&& trex.y >= width/2) {
+  if(keyDown("space")&& trex.y >= width/2)) {
     trex.velocityY = -13;
     jumpSound.play();
   }
